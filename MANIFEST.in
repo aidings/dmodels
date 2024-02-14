@@ -1,0 +1,2 @@
+include src/dmodels/data/*
+# recursive-include src/project *.*
