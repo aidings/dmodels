@@ -8,14 +8,14 @@
 from setuptools import find_packages, setup
 
 setup(name='dmodels',  # 包名
-      version='0.0.2',  # 版本号
+      version='0.0.3',  # 版本号
       description='',
       long_description='',
       author='zhifeng.ding',
       author_email='zhifeng.ding@hqu.edu.cn',
       url='',
       license='',
-      install_requires=['pyyaml', 'einops', 'torch'],
+      install_requires=['pyyaml', 'einops', 'torch', 'loguru'],
       extras_require={},
       dependency_links=[
           "https://pypi.tuna.tsinghua.edu.cn/simple",
