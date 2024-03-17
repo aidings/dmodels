@@ -51,7 +51,7 @@ class AutoencoderKL(nn.Module):
         else:
             z = posterior.mode()
         dec = self.decode(z)
-        return dec, posterior
+        return dec, posterior.kl()
 
     def get_input(self, batch, k):
         x = batch[k]

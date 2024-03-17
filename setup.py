@@ -8,7 +8,7 @@
 from setuptools import find_packages, setup
 
 setup(name='dmodels',  # 包名
-      version='0.0.3',  # 版本号
+      version='0.0.4',  # 版本号
       description='',
       long_description='',
       author='zhifeng.ding',
